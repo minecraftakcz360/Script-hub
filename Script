@@ -4,5 +4,4 @@ if game.PlaceId == 5062619730 then
 
 if game.PlaceId == 1224212277 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/madcity/main/Ruby%20Hub%20Chapter%202", true))()
-
  end
