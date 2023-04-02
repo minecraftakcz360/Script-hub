@@ -1,0 +1,24 @@
+local bigHead = function(npc, maxWait)
+local head = npc:WaitForChild('Head', maxWait or 2)
+local hum = npc:WaitForChild("Humanoid", maxWait or 2)
+local neck = head and head:WaitForChild('Neck', maxWait or 2)
+if head and hum and neck then
+local old = head.Size
+local oldC0 = neck.C0
+neck.C0+= Vector3.new(0, 10, 0)
+head.Size=Vector3.new(30, 30, 30)
+head.CanCollide = false
+head.Transparency = 0.35
+local connection connection = hum.Died:Connect(function()
+connection:Disconnect()
+head.Size = old
+neck.C0 = oldC0
+end)
+end
+end
+
+workspace.Npcs.ChildAdded:Connect(bigHead)
+
+for _, npc in next, workspace.Npcs:GetChildren() do
+bigHead(npc, 1e-100)
+end
