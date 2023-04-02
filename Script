@@ -4,6 +4,6 @@ if game.PlaceId == 5062619730 then
 elseif game.PlaceId == 1224212277 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Mad%20City"))()
 
-else if game.PlaceId == 6284583030 then
+elseif game.PlaceId == 6284583030 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Pet%20Simulator%20X"))()
  end
