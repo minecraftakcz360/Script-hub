@@ -45,6 +45,6 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Big Heads",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/War%20Simulator"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Big%20Heads"))()
   	end    
 })
