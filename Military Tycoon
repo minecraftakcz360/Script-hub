@@ -1,8 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-_G.VisualKeyInput = "Nothing"
-
-
 local Window = OrionLib:MakeWindow({Name = "Military Tycoon", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
