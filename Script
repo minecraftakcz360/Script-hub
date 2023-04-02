@@ -9,4 +9,7 @@ elseif game.PlaceId == 6284583030 then
  
 elseif game.PlaceId == 7180042682 then 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Military%20Tycoon"))()
+ 
+elseif game.PlaceId == 4639625707 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/War%20Tycoon"))()
  end
