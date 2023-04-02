@@ -1,0 +1,74 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+_G.VisualKeyInput = "Nothing"
+
+
+local Window = OrionLib:MakeWindow({Name = "Pet Simulator X", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Useful Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Esp",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Universal%20Esp",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cmd (closes gui)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nuke vs City",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Anti Afk",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Pet Sim X",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Milk Up",
+	Callback = function()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a82cd5447cbbc4c7be0e8db405555787.lua"))()
+  	end
+})
+
+local Section = Tab:AddSection({
+	Name = "Visual Changer"
+})
+
+Tab:AddTextbox({
+	Name = "Key for visual",
+	Default = "https://wumat.xyz/getkey.html",
+	TextDisappear = false,
+	Callback = function(Value)
+		_G.VisualKeyInput = Value
+	end	  
+})
+
+Tab:AddButton({
+	Name = "Load Script (open inventory before loading the script)",
+	Callback = function()
+      		getgenv().key = _G.VisualKeyInput
+            loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/wumats-visual-hub.lua", true))()
+  	end
+})
