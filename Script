@@ -1,22 +1,25 @@
 if game.PlaceId == 5062619730 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/War%20Simulator"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/War%20Simulator"))()
 
 elseif game.PlaceId == 1224212277 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Mad%20City"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Mad%20City"))()
 
 elseif game.PlaceId == 6284583030 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Pet%20Simulator%20X"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Pet%20Simulator%20X"))()
  
 elseif game.PlaceId == 7180042682 then 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Military%20Tycoon"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Military%20Tycoon"))()
  
 elseif game.PlaceId == 4639625707 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/War%20Tycoon"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/War%20Tycoon"))()
   
 elseif game.PlaceId == 2753915549 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Blox%20Fruits"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Blox%20Fruits"))()
 
 elseif game.PlaceId == 3956818381 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Ninja%20Legends"))()
+
+elseif game.PlaceId == 8328351891 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Mega%20Mansion%20Tycoon"))()
 
 end
