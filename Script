@@ -15,4 +15,8 @@ elseif game.PlaceId == 4639625707 then
   
 elseif game.PlaceId == 2753915549 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Blox%20Fruits"))()
+
+elseif game.PlaceId == 3956818381 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Ninja%20Legends"))()
+
 end
