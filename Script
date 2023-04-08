@@ -22,4 +22,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Scri
 elseif game.PlaceId == 8328351891 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Mega%20Mansion%20Tycoon"))()
 
+elseif game:PlaceId == 8721702870 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/فورت%20نايت%20العرب"))()
+
 end
