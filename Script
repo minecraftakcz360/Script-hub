@@ -25,4 +25,9 @@ elseif game.PlaceId == 8328351891 then
 elseif game.PlaceId == 8721702870 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/فورت%20نايت%20العرب"))()
 
+elseif game.PlaceId == 8737602449 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/PLS%20DONATE"))()
+
+else
+ game:GetService('Players').LocalPlayer:Kick('game not supported lol')
 end
