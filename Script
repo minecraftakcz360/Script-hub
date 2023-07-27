@@ -28,6 +28,9 @@ elseif game.PlaceId == 8721702870 then
 elseif game.PlaceId == 8737602449 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/PLS%20DONATE"))()
 
+elseif game.PlaceId == 370731277 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Meepcity"))()
+
 else
  game:GetService('Players').LocalPlayer:Kick('game not supported lol')
 end
