@@ -1,3 +1,5 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
 if game.PlaceId == 5062619730 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/War%20Simulator"))()
 
