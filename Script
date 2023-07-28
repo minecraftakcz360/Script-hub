@@ -34,6 +34,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Scri
 elseif game.PlaceId == 537413528 then
 https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Build%20A%20Boat%20For%20Treasure
 
+elseif game.PlaceId == 2971329387 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Cook%20Burgers"))()
+
 else
  game:GetService('Players').LocalPlayer:Kick('game not supported lol')
 end
