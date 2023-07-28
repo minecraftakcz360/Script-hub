@@ -19,7 +19,7 @@ elseif game.PlaceId == 2753915549 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Blox%20Fruits"))()
 
 elseif game.PlaceId == 3956818381 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Ninja%20Legends"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Ninja%20Legends"))()
 
 elseif game.PlaceId == 8328351891 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Mega%20Mansion%20Tycoon"))()
@@ -31,13 +31,13 @@ elseif game.PlaceId == 8737602449 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/PLS%20DONATE"))()
 
 elseif game.PlaceId == 370731277 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Meepcity"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Meepcity"))()
 
 elseif game.PlaceId == 537413528 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Build%20A%20Boat%20For%20Treasure"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Build%20A%20Boat%20For%20Treasure"))()
 
 elseif game.PlaceId == 2971329387 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Cook%20Burgers"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Cook%20Burgers"))()
 
 else
  game:GetService('Players').LocalPlayer:Kick('game not supported lol')
