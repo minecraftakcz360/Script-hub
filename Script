@@ -39,6 +39,10 @@ elseif game.PlaceId == 537413528 then
 elseif game.PlaceId == 2971329387 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Cook%20Burgers"))()
 
+elseif game.PlaceId == 8232438881 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Thief%20Simulator"))()
+
+
 else
  game:GetService('Players').LocalPlayer:Kick('game not supported lol')
 end
