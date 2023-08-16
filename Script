@@ -42,6 +42,9 @@ elseif game.PlaceId == 2971329387 then
 elseif game.PlaceId == 8232438881 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Thief%20Simulator"))()
 
+elseif game.PlaceId == 2727067538 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/World%20Zero"))()
+
 
 else
  game:GetService('Players').LocalPlayer:Kick('game not supported lol')
