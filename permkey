@@ -58,9 +58,8 @@ else
         Callback = function()
                   if permkeyinput == permkey then
                     makefolder("/minecraftakcz360")
-                     appendfile("/minecraftakcz360/permkey.txt","a")
-                      writefile("/minecraftakcz360/permkey.txt", permkeyinput)
-                       loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Script"))()
+                     writefile("/minecraftakcz360/permkey.txt", permkeyinput)
+                      loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Script"))()
                         end
           end    
           })
