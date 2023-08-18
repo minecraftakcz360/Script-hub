@@ -58,9 +58,8 @@ else
         Callback = function()
                   if keyinput == key then
                     makefolder("/minecraftakcz360")
-                     appendfile("/minecraftakcz360/key.txt","a")
-                      writefile("/minecraftakcz360/key.txt", keyinput)
-                       loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Script"))()
+                     writefile("/minecraftakcz360/key.txt", keyinput)
+                      loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Script"))()
                         end
           end    
           })
