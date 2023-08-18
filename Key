@@ -1,0 +1,68 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local key = loadstring(game:HttpGet("https://pastebin.com/raw/xPgCC23A"))()
+local permkey = loadstring(game:HttpGet("https://pastebin.com/raw/mzBh7yCT"))()
+local keyinput = nothing
+local permkeyinput = nothing
+
+
+
+if isfile ("/minecraftakcz360/key.txt") then
+    if readfile("/minecraftakcz360/key.txt") == key then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Script"))()
+    else
+        local Window = OrionLib:MakeWindow({Name = "Key_System", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+    
+        local Tab = Window:MakeTab({
+            Name = "Enter Key",
+            Icon = "rbxassetid://4483345998",
+            PremiumOnly = false
+            })
+        Tab:AddTextbox({
+            Name = "Key",
+            Default = "",
+            TextDisappear = true,
+            Callback = function(Value)
+                keyinput = Value
+            end	  
+            })
+        Tab:AddButton({
+            Name = "Check Key",
+            Callback = function()
+                      if keyinput == key then
+                        writefile("/minecraftakcz360/key.txt", keyinput)
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Script"))()
+                      end
+              end    
+              })
+            OrionLib:Init()
+    end
+else
+    local Window = OrionLib:MakeWindow({Name = "Key_System", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+    
+    local Tab = Window:MakeTab({
+        Name = "Enter Key",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+        })
+    Tab:AddTextbox({
+        Name = "Key",
+        Default = "",
+        TextDisappear = true,
+        Callback = function(Value)
+            keyinput = Value
+        end	  
+        })
+    Tab:AddButton({
+        Name = "Check Key",
+        Callback = function()
+                  if keyinput == key then
+                    makefolder("/minecraftakcz360")
+                     appendfile("/minecraftakcz360/key.txt","a")
+                      writefile("/minecraftakcz360/key.txt", keyinput)
+                       loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Script"))()
+                        end
+          end    
+          })
+        OrionLib:Init()
+end
