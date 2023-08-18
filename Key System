@@ -1,1 +1,21 @@
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v14={};for v15=1, #v8 do v6(v14,v0(v4(v1(v2(v8,v15,v15 + 1 )),v1(v2(v9,1 + ((v15-1)% #v9) ,1 + ((v15-1)% #v9) + 1 )))%256 ));end return v5(v14);end local v10=loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))();local v11=v10:MakeWindow({[v7("\15\36\241\194","\65\69\156\167\92\67\134\139")]=v7("\174\39\198\81\182\59\204\5\128\47","\229\66\191\113"),[v7("\212\67\178\240\185\197\204\241\67\163\248","\156\42\214\149\233\183\169")]=true,[v7("\103\187\161\30\203\5\213\126\93\189","\52\218\215\123\136\106\187\24")]=true,[v7("\7\75\219\19\3\39\2\75\217\17\15\50","\68\36\181\117\106\64")]=v7("\26\198\192\206\232\244\248\90\33","\85\180\169\161\134\160\157\41")});_G.Key=v7("\255\0\2\28\171\65\12\65\247\85\15\23\238\5","\158\50\58\120");_G.KeyInput=v7("\13\95\25\5\16\76","\126\43\107\108");_G.Permkey=v7("\217\203\214\197\85\240\252\196\207\198\211\82\234","\169\174\178\170\51\153\144");v10:MakeNotification({[v7("\1\67\2\177","\79\34\111\212\226\228\235")]=v7("\157\24\250\2\204\14\176\22\250\2\197\9","\211\119\142\107\170\103"),[v7("\255\47\73\35\217\46\83","\188\64\39\87")]=v7("\18\78\175\213\190\48\70\238\218\178\39\1\189\200\164\42\68\163","\94\33\206\177\215"),[v7("\164\80\185\246\136","\237\61\216\145")]="rbxassetid://4483345998",[v7("\191\17\14\15","\235\120\99\106\237\170\100\141")]=2});wait(2);local v12=v11:MakeTab({[v7("\13\134\219\19","\67\231\182\118\182")]=v7("\101\186\233","\46\223\144\87\168\154\163\144"),[v7("\36\190\44\212","\109\221\67\186\176")]="rbxassetid://4483345998",[v7("\245\165\47\237\87\208\186\5\238\82\220","\165\215\74\128\62")]=false});v12:AddTextbox({[v7("\152\134\0\72","\214\231\109\45")]=v7("\105\126\227\134\172\116\103\117\238","\44\16\151\227\222\84"),[v7("\99\127\122\123\75\15\83","\39\26\28\26\62\99")]="",[v7("\107\188\245\229\123\176\254\240\79\169\232\240\77","\63\217\141\145")]=false,[v7("\205\121\66\94\66\173\134\205","\142\24\46\50\32\204\229\166")]=function(v13)_G.KeyInput=v13;end});v12:AddButton({[v7("\130\128\120\137","\204\225\21\236\36\100")]=v7("\2\25\45\177\42\81\3\183\56","\65\113\72\210"),[v7("\237\187\230\215\3\237\0\197","\174\218\138\187\97\140\99")]=function()if ((_G.KeyInput==_G.Key) or (_G.KeyInput==_G.Permkey)) then local v16=0 -0 ;while true do if ((3 -2)==v16) then v10:Destroy();loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Script"))();break;end if (v16==(0 + 0)) then v10:MakeNotification({[v7("\38\13\34\66","\104\108\79\39\222\108\40")]=v7("\123\84\24","\48\49\97\152\183\188\112"),[v7("\198\206\116\16\224\207\110","\133\161\26\100")]=v7("\26\10\52\153\220\93\113\25\44\213\220\74\127\79\1\214\212\74\56\1\42\153\225\70\52\79\30\218\199\71\33\27","\81\111\77\185\181\46"),[v7("\124\140\65\115\80","\53\225\32\20")]="rbxassetid://4483345998",[v7("\103\165\17\213","\51\204\124\176\92\88\52\58")]=901 -(777 + 123) });wait(3 -2 );v16=1 + 0 ;end end end end});
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Chose", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Chose",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Key",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Key"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Permanent Key",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/PermKey"))()
+  	end    
+})
