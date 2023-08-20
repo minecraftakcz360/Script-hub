@@ -45,6 +45,9 @@ elseif game.PlaceId == 8232438881 then
 elseif game.PlaceId == 2727067538 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/World%20Zero"))()
 
+elseif game.PlaceId == 3145447020 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Mt.%20Everest%20Climbing%20Roleplay"))()
+
 
 else
  game:GetService('Players').LocalPlayer:Kick('game not supported lol')
