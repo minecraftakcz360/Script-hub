@@ -21,7 +21,7 @@ if isfile ("/minecraftakcz360/key.txt") then
         Tab:AddTextbox({
             Name = "Key",
             Default = "",
-            TextDisappear = true,
+            TextDisappear = false,
             Callback = function(Value)
                 keyinput = Value
             end	  
@@ -48,7 +48,7 @@ else
     Tab:AddTextbox({
         Name = "Key",
         Default = "",
-        TextDisappear = true,
+        TextDisappear = false,
         Callback = function(Value)
             keyinput = Value
         end	  
