@@ -48,7 +48,12 @@ elseif game.PlaceId == 2727067538 then
 elseif game.PlaceId == 3145447020 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Mt.%20Everest%20Climbing%20Roleplay"))()
 
+elseif game.PlaceId == 8267733039 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Specter%202"))()
+
+
+
 
 else
- game:GetService('Players').LocalPlayer:Kick('game not supported lol')
+ game:GetService('Players').LocalPlayer:Kick('you have been permanently banned from roblox if you think this is mystake contact roblox support')
 end
