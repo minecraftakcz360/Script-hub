@@ -37,13 +37,13 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Mining Sim 2",
+	Name = "Arm Wrestle S",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 Tab:AddButton({
-	Name = "Arm Wrestle S",
+	Name = "Project WD",
 	Callback = function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua'))()
   	end
