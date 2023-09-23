@@ -63,7 +63,7 @@ elseif game.PlaceId == 6872265039 then
 elseif game.PlaceId == 9551640993 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Mining%20Simulator%202"))()
 
-elseif game.PlaceId == 9551640993 then
+elseif game.PlaceId == 13127800756 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Arm%20Wrestle%20Simulator"))()
 
 
