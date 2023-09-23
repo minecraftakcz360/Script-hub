@@ -69,6 +69,9 @@ elseif game.PlaceId == 13127800756 then
 elseif game.PlaceId == 14236123211 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Punch%20Simulator"))()
 
+elseif game.PlaceId == 4623386862 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Piggy"))()
+
 
 else
  game:GetService('Players').LocalPlayer:Kick('you have been permanently banned from roblox if you think this is mystake contact roblox support')
