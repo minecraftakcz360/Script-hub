@@ -48,8 +48,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Project WD",
 	Callback = function()
-      		getgenv().boothsnipe = false
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+      	        loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
   	end
 })
 
