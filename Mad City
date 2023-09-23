@@ -45,7 +45,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "RubyHub",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/main/main/RubyHub.lua", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/mad-city/main/Ruby%20Hub.lua", true))()
   	end    
 })
 
