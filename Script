@@ -60,6 +60,9 @@ elseif game.PlaceId == 13924946576 then
 elseif game.PlaceId == 6872265039 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/BedWars"))()
 
+elseif game.PlaceId == 9551640993 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Mining%20Simulator%202"))()
+
 
 else
  game:GetService('Players').LocalPlayer:Kick('you have been permanently banned from roblox if you think this is mystake contact roblox support')
