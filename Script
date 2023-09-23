@@ -52,8 +52,10 @@ elseif game.PlaceId == 8267733039 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Specter%202"))()
 
 elseif game.PlaceId == 10449761463 then
- https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/The%20Strongest%20Battlegrounds
+loadstring(game:HttpGet(" https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/The%20Strongest%20Battlegrounds"))()
 
+elseif game.PlaceId == 13924946576 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Dingus"))()
 
 
 else
