@@ -90,3 +90,68 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "Mama Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/MAMAhub1/Mmahub/main/README.md"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FTSX Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/tufreescript/FTS-X-Hub/main/FTSXHUB%20V1'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "TNG Hub (KEY NEFUNGUJE)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tngaming123/TNGHub/main/AutoRaceV4.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BLCK Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "MODZ Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/modz"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "HoHo Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Zen Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Switch Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumX/main/src_.lua.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Thunder Z Hub [V2]",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
+  	end    
+})
+
+
