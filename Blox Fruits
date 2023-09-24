@@ -127,13 +127,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "HoHo Hub",
-	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Zen Hub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
