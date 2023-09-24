@@ -57,8 +57,29 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Law Hub",
+	Name = "Law Hub (NEFUNGUJE)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/Law%20hub"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Law Hub (KEY NEFUNGUJE)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/Law%20hub"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Neva Hub (KEY NEFUNGUJE)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "HoHo Hub (KEY)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
   	end    
 })
