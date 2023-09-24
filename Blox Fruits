@@ -154,4 +154,9 @@ Tab:AddButton({
   	end    
 })
 
-
+Tab:AddButton({
+	Name = "Pado Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+  	end    
+})
