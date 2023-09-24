@@ -75,6 +75,13 @@ elseif game.PlaceId == 4623386862 then
 elseif game.PlaceId == 3623096087 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Muscle%20Legends"))()
 
+elseif game.PlaceId == 8542259458 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/SkyWars"))()
+
+
+
+
+
 
 else
  game:GetService('Players').LocalPlayer:Kick('you have been permanently banned from roblox if you think this is mystake contact roblox support')
