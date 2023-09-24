@@ -78,6 +78,9 @@ elseif game.PlaceId == 3623096087 then
 elseif game.PlaceId == 855499080 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/SkyWars"))()
 
+elseif game.PlaceId == 205224386 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/Hide%20and%20Seek%20Extreme", true))()
+
 
 
 
