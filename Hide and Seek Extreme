@@ -43,7 +43,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "HaxHell Hub",
+	Name = "HaxHell Hub (KEY)",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/haxhell/roblox-scripts/main/hide-and-seek-extreme.lua", true))()
 		setclipboard("https://www.haxhell.com/getkey")
@@ -51,7 +51,20 @@ Tab:AddButton({
 			Name = "Copied",
 			Content = "Key link was copied to the clipboard",
 			Image = "rbxassetid://4483345998",
-			Time = 1
+			Time = 3
+		})
+	end
+})
+
+Tab:AddButton({
+	Name = "Copy Key Link",
+	Callback = function()
+		setclipboard("https://www.haxhell.com/getkey")
+		OrionLib:MakeNotification({
+			Name = "Copied",
+			Content = "Key link was copied to the clipboard",
+			Image = "rbxassetid://4483345998",
+			Time = 3
 		})
 	end
 	})
