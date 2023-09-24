@@ -55,3 +55,10 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "Law Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/Law%20hub"))()
+  	end    
+})
