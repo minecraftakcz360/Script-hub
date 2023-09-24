@@ -57,13 +57,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Law Hub (NEFUNGUJE)",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/Law%20hub"))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Law Hub (KEY NEFUNGUJE)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/Law%20hub"))()
