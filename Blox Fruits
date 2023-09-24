@@ -80,6 +80,13 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Sonic Hub",
 	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/Protected-25.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Domadic Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
   	end    
 })
