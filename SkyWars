@@ -43,8 +43,8 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Offioa Hub",
+	Name = "SkyWars GUI",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftakcz360/Script-hub/main/offioa%20hub"))()
+		loadstring(game:HttpGet("https://paste.ee/r/r9gnA"))()
   	end
 	})
