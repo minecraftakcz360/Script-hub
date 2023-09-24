@@ -43,7 +43,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Zaque Hub",
+	Name = "Zaque Hub (KEY)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
   	end    
@@ -72,6 +72,13 @@ Tab:AddButton({
 
 Tab:AddButton({
 	Name = "HoHo Hub (KEY)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sonic Hub",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
   	end    
